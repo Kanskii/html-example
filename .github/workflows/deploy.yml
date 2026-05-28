@@ -46,7 +46,7 @@ jobs:
                 container_name: html-example
                 restart: always
                 ports:
-                  - "8089:80"
+                  - "8082:80"
             EOF
 
             docker compose pull
