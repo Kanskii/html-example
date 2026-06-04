@@ -29,5 +29,5 @@ jobs:
             cd ${{ secrets.VPS_PATH }} &&
             docker build -t html-example . &&
             docker rm -f html-example || true &&
-            docker run -d --name html-example -p 8082:80 --restart always html-example
+            docker run -d --name html-example -p 8084:80 --restart always html-example
           "
